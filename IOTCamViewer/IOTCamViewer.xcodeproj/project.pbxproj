@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECBE59DB1A8F97900081D52E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBE59DA1A8F97900081D52E /* main.m */; };
+		ECBE59DE1A8F97900081D52E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBE59DD1A8F97900081D52E /* AppDelegate.m */; };
+		ECBE59E11A8F97900081D52E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBE59E01A8F97900081D52E /* ViewController.m */; };
+		ECBE59E41A8F97900081D52E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBE59E21A8F97900081D52E /* Main.storyboard */; };
+		ECBE59E61A8F97900081D52E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBE59E51A8F97900081D52E /* Images.xcassets */; };
+		ECBE59E91A8F97900081D52E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECBE59E71A8F97900081D52E /* LaunchScreen.xib */; };
+		ECBE59F51A8F97900081D52E /* IOTCamViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBE59F41A8F97900081D52E /* IOTCamViewerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECBE59EF1A8F97900081D52E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECBE59CD1A8F97900081D52E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECBE59D41A8F97900081D52E;
+			remoteInfo = IOTCamViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECBE59D51A8F97900081D52E /* IOTCamViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOTCamViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBE59D91A8F97900081D52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBE59DA1A8F97900081D52E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECBE59DC1A8F97900081D52E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECBE59DD1A8F97900081D52E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECBE59DF1A8F97900081D52E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECBE59E01A8F97900081D52E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECBE59E31A8F97900081D52E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECBE59E51A8F97900081D52E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECBE59E81A8F97900081D52E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ECBE59EE1A8F97900081D52E /* IOTCamViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOTCamViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBE59F31A8F97900081D52E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBE59F41A8F97900081D52E /* IOTCamViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOTCamViewerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECBE59D21A8F97900081D52E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE59EB1A8F97900081D52E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECBE59CC1A8F97900081D52E = {
+			isa = PBXGroup;
+			children = (
+				ECBE59D71A8F97900081D52E /* IOTCamViewer */,
+				ECBE59F11A8F97900081D52E /* IOTCamViewerTests */,
+				ECBE59D61A8F97900081D52E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECBE59D61A8F97900081D52E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE59D51A8F97900081D52E /* IOTCamViewer.app */,
+				ECBE59EE1A8F97900081D52E /* IOTCamViewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECBE59D71A8F97900081D52E /* IOTCamViewer */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE59DC1A8F97900081D52E /* AppDelegate.h */,
+				ECBE59DD1A8F97900081D52E /* AppDelegate.m */,
+				ECBE59DF1A8F97900081D52E /* ViewController.h */,
+				ECBE59E01A8F97900081D52E /* ViewController.m */,
+				ECBE59E21A8F97900081D52E /* Main.storyboard */,
+				ECBE59E51A8F97900081D52E /* Images.xcassets */,
+				ECBE59E71A8F97900081D52E /* LaunchScreen.xib */,
+				ECBE59D81A8F97900081D52E /* Supporting Files */,
+			);
+			path = IOTCamViewer;
+			sourceTree = "<group>";
+		};
+		ECBE59D81A8F97900081D52E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE59D91A8F97900081D52E /* Info.plist */,
+				ECBE59DA1A8F97900081D52E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECBE59F11A8F97900081D52E /* IOTCamViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE59F41A8F97900081D52E /* IOTCamViewerTests.m */,
+				ECBE59F21A8F97900081D52E /* Supporting Files */,
+			);
+			path = IOTCamViewerTests;
+			sourceTree = "<group>";
+		};
+		ECBE59F21A8F97900081D52E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECBE59F31A8F97900081D52E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECBE59D41A8F97900081D52E /* IOTCamViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBE59F81A8F97900081D52E /* Build configuration list for PBXNativeTarget "IOTCamViewer" */;
+			buildPhases = (
+				ECBE59D11A8F97900081D52E /* Sources */,
+				ECBE59D21A8F97900081D52E /* Frameworks */,
+				ECBE59D31A8F97900081D52E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOTCamViewer;
+			productName = IOTCamViewer;
+			productReference = ECBE59D51A8F97900081D52E /* IOTCamViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECBE59ED1A8F97900081D52E /* IOTCamViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBE59FB1A8F97900081D52E /* Build configuration list for PBXNativeTarget "IOTCamViewerTests" */;
+			buildPhases = (
+				ECBE59EA1A8F97900081D52E /* Sources */,
+				ECBE59EB1A8F97900081D52E /* Frameworks */,
+				ECBE59EC1A8F97900081D52E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBE59F01A8F97900081D52E /* PBXTargetDependency */,
+			);
+			name = IOTCamViewerTests;
+			productName = IOTCamViewerTests;
+			productReference = ECBE59EE1A8F97900081D52E /* IOTCamViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECBE59CD1A8F97900081D52E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Yang Shengyuan";
+				TargetAttributes = {
+					ECBE59D41A8F97900081D52E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					ECBE59ED1A8F97900081D52E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = ECBE59D41A8F97900081D52E;
+					};
+				};
+			};
+			buildConfigurationList = ECBE59D01A8F97900081D52E /* Build configuration list for PBXProject "IOTCamViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECBE59CC1A8F97900081D52E;
+			productRefGroup = ECBE59D61A8F97900081D52E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECBE59D41A8F97900081D52E /* IOTCamViewer */,
+				ECBE59ED1A8F97900081D52E /* IOTCamViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECBE59D31A8F97900081D52E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBE59E41A8F97900081D52E /* Main.storyboard in Resources */,
+				ECBE59E91A8F97900081D52E /* LaunchScreen.xib in Resources */,
+				ECBE59E61A8F97900081D52E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE59EC1A8F97900081D52E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECBE59D11A8F97900081D52E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBE59E11A8F97900081D52E /* ViewController.m in Sources */,
+				ECBE59DE1A8F97900081D52E /* AppDelegate.m in Sources */,
+				ECBE59DB1A8F97900081D52E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECBE59EA1A8F97900081D52E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBE59F51A8F97900081D52E /* IOTCamViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECBE59F01A8F97900081D52E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECBE59D41A8F97900081D52E /* IOTCamViewer */;
+			targetProxy = ECBE59EF1A8F97900081D52E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECBE59E21A8F97900081D52E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBE59E31A8F97900081D52E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECBE59E71A8F97900081D52E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBE59E81A8F97900081D52E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECBE59F61A8F97900081D52E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECBE59F71A8F97900081D52E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECBE59F91A8F97900081D52E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IOTCamViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECBE59FA1A8F97900081D52E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IOTCamViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECBE59FC1A8F97900081D52E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IOTCamViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOTCamViewer.app/IOTCamViewer";
+			};
+			name = Debug;
+		};
+		ECBE59FD1A8F97900081D52E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IOTCamViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOTCamViewer.app/IOTCamViewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECBE59D01A8F97900081D52E /* Build configuration list for PBXProject "IOTCamViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBE59F61A8F97900081D52E /* Debug */,
+				ECBE59F71A8F97900081D52E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBE59F81A8F97900081D52E /* Build configuration list for PBXNativeTarget "IOTCamViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBE59F91A8F97900081D52E /* Debug */,
+				ECBE59FA1A8F97900081D52E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECBE59FB1A8F97900081D52E /* Build configuration list for PBXNativeTarget "IOTCamViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBE59FC1A8F97900081D52E /* Debug */,
+				ECBE59FD1A8F97900081D52E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECBE59CD1A8F97900081D52E /* Project object */;
+}
